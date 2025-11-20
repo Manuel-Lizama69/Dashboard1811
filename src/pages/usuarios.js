@@ -1,17 +1,15 @@
 import React from 'react';
 import NavbarPrincipal  from './components/navbar';
 import SideMenu from './components/sidemenu';
-import Kpis from './components/kpis';
+import ListaUsuarios from './components/lista_usuarios';
 
-function Dashboard(){
-    return(
+function ListadoUsuarios() {
+    return (
         <div>
             <NavbarPrincipal/>
             <SideMenu/>
-            <Kpis/>
-            
+            <ListaUsuarios/>    
         </div>
     );
 }
-
-export default Dashboard;
+export default ListadoUsuarios;
