@@ -51,10 +51,10 @@ function ListaUsuarios() {
                                                 <div className="row">
                                                     <div className="col-7">
                                                         <h2 className="lead"><b>{usuario.nombre}</b></h2>
-                                                        <p className="text-muted text-sm"><b>About: </b> {usuario.about} </p>
+                                                        <p className="text-muted text-sm"><b>Sobre mi: </b> {usuario.about} </p>
                                                         <ul className="ml-4 mb-0 fa-ul text-muted">
-                                                            <li className="small"><span className="fa-li"><i className="fas fa-lg fa-building" /></span> Address: {usuario.direccion}</li>
-                                                            <li className="small"><span className="fa-li"><i className="fas fa-lg fa-phone" /></span> Phone #: {usuario.telefono}</li>
+                                                            <li className="small"><span className="fa-li"><i className="fas fa-lg fa-building" /></span> Direccion: {usuario.direccion}</li>
+                                                            <li className="small"><span className="fa-li"><i className="fas fa-lg fa-phone" /></span> Celular #: {usuario.telefono}</li>
                                                         </ul>
                                                     </div>
                                                     <div className="col-5 text-center">
@@ -68,7 +68,7 @@ function ListaUsuarios() {
                                                         <i className="fas fa-comments" />
                                                     </a>
                                                     <a href="#" className="btn btn-sm btn-primary">
-                                                        <i className="fas fa-user" /> View Profile
+                                                        <i className="fas fa-user" /> Ver Perfil
                                                     </a>
                                                 </div>
                                             </div>
